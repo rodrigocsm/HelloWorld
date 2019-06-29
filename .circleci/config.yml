@@ -9,4 +9,4 @@ jobs:
       - run: mkdir -p /tmp/artifacts
       - run: cp helloWorld /tmp/artifacts/helloWorld
       - store_artifacts:
-        path: /tmp/artifacts
+          path: /tmp/artifacts
