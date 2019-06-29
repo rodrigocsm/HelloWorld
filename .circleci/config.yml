@@ -6,6 +6,4 @@ jobs:
     steps:
       - checkout
       - run: make
-      - store_artifacts:
-        path: /helloWorld
-        destination: helloWorld
+      - store_artifacts
