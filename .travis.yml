@@ -1,7 +1,0 @@
-sudo: required
-# Enable C++ support
-language: c
-
-# Compiler selection
-compiler:
-  - gcc
